@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Inconsolata:wght@200..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #c2f5d591;
+    color: #155830;
+}
+
+header{
+    background-color:  #1F7240;
+    text-align: center;
+    padding: 2rem;
+    color: #F5F7F6;
+}
+
+.title {
+    text-align: right;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+h3 {
+    color: #6F3E2D;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #298b4f;
+    color: #F5F7F6;
+    padding: 0.5rem;
+}
+
+thead th{
+    background-color: #155830;
+}
+
+td {
+    background-color: #F5F7F6;
+    padding: 0.5rem;
+}
+
+table caption{
+    caption-side: bottom;
+    text-align: right;
+    font-style: italic;
+    margin: 5px 0;
+}
+
+.responsive-table {
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    gap: 20px;
+}
+
+.list{
+    margin: 20px;
+    padding: 2rem;
+    background-color: #298b4f;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(2, 58, 27, 0.87);
+}
+/* Visto que a propriedade flex-wrap está definida como wrap, os itens serão reorganizados em mais de uma linha.*/
+.list dl{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.list dt{
+    flex: 2rem 2rem 280px;
+    font-weight: bold;
+    color: #F5F7F6;
+}
+
+.list dd{
+    flex: 0 0 280px;
+    margin: 10px;
+    padding: 2rem;
+    font-weight: bold;
+    color: #F5F7F6;
+    gap: 10px;
+}
+
+img {
+    width: 20rem;
+    border-radius: 5px;
+}
